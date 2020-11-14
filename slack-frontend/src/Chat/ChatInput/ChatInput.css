@@ -1,0 +1,33 @@
+.channelInput {
+    border-radius: 20px;
+  }
+  
+  .channelInput > form {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .chatInput > form > input {
+    position: fixed;
+    bottom: 30px;
+    width: 60%;
+    margin-left: 9%;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 3px;
+    font-size: 14px;
+    padding: 20px;
+  }
+  
+  .chatInput > form > button {
+    position: fixed;
+    bottom: 64px;
+    right: 12.5%;
+    cursor: pointer;
+    color: gray;
+    height: 0;
+    width: 0;
+    border: none;
+    background-color: transparent;
+  }
